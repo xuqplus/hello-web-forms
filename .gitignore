@@ -1,0 +1,6 @@
+.vs/
+.idea/
+obj/
+bin/
+hello-aspx.csproj.user
+packages/
