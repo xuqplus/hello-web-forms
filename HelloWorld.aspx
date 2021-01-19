@@ -8,5 +8,17 @@
 </head>
 <body>
     hello world ..
+    <hr />
+    check console to see if a.js loaded ..
+    <hr />
+
+<form runat="server">
+<asp:ScriptManager runat="server">
+<Scripts runat="server">
+    <asp:ScriptReference Path="~/Scripts/a.js" />
+</Scripts>
+</asp:ScriptManager>    
+</form>
+
 </body>
 </html>
