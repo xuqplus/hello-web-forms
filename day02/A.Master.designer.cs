@@ -9,7 +9,7 @@
 
 
 
-public partial class A {
+public partial class A { // A partial class: A class defined in separated files
 
     /// <summary>
     /// head control.

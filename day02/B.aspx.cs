@@ -10,16 +10,21 @@ namespace HelloWebForms.day02
     public partial class B : System.Web.UI.Page
     {
         //protected System.Web.UI.WebControls.HtmlGenericControl Adiv;
-        protected System.Web.UI.WebControls.Label Alabel;
+        //protected System.Web.UI.WebControls.Label Alabel;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Adiv.InnerHtml = "default ..";
+            Adiv.InnerHtml = "default set in .cs Page_Load method ..";
         }
 
         protected void Fun2(object sender, EventArgs e)
         {
             Alabel.Text = "this value set from .cs file ..";
+        }
+
+        protected void Fun3(object sender, EventArgs e)
+        {
+            Adiv.InnerHtml = "this value set from .cs file ..";
         }
     }
 }
