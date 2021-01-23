@@ -9,6 +9,7 @@
 
 namespace HelloWebForms.day02
 {
+
     public partial class B
     {
 
@@ -38,5 +39,14 @@ namespace HelloWebForms.day02
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Adiv;
+
+        /// <summary>
+        /// hi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button hi;
     }
 }

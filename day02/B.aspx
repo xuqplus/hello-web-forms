@@ -1,4 +1,5 @@
-﻿<%@ Page Title="The @Page direction" Language="C#" AutoEventWireup="true" CodeFile="B.aspx.cs" Inherits="HelloWebForms.day02.B" %>
+﻿<%@ Page Title="The @Page direction" Language="C#" AutoEventWireup="true" CodeBehind="B.aspx.cs" Inherits="HelloWebForms.day02.B" %>
+<%--<%@ Page Title="The @Page direction" Language="C#" AutoEventWireup="true" CodeFile="B.aspx.cs" Inherits="HelloWebForms.day02.B" %>--%>
 <%--<%@ Page Title="The @Page direction" Language="C#" AutoEventWireup="true" Inherits="HelloWebForms.day02.B" Src="~/day02/B.aspx.cs" %>--%>
 
 <!DOCTYPE html>
@@ -20,5 +21,9 @@
         <asp:Button OnClick="Fun2" runat="server" Text="点击这个按钮触发事件 - ALabel - aspx.cs" />
         <asp:Button OnClick="Fun3" runat="server" Text="点击这个按钮触发事件 - Adiv - aspx.cs" />
     </form>
+
+    <br />
+    <asp:Button ID="hi" runat="server" Text="no use"/>
+
 </body>
 </html>
