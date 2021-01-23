@@ -121,6 +121,7 @@
     <Content Include="day01\TestRunOnServer3.aspx" />
     <Content Include="day01\TestRunOnServer2.aspx" />
     <Content Include="day02\A.aspx" />
+    <Content Include="day02\B.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -202,6 +203,13 @@
     </Compile>
     <Compile Include="day02\A.Master.designer.cs">
       <DependentUpon>A.Master</DependentUpon>
+    </Compile>
+    <Compile Include="day02\B.aspx.cs">
+      <DependentUpon>B.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="day02\B.aspx.designer.cs">
+      <DependentUpon>B.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

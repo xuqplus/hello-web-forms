@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace HelloWebForms.day02
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class A : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
