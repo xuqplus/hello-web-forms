@@ -17,5 +17,9 @@
             Request.QueryString.Get("id") + ", " + Request.QueryString.Get("name")
         %>
     </div>
+    <%
+        HttpCookie cookie = new HttpCookie("hello-web-forms", "value");
+        Response.SetCookie(cookie);
+    %>
 </body>
 </html>
