@@ -15,5 +15,14 @@
             <% Response.Write("Response.Write(\"\");"); %>
         </div>
     </form>
+
+    <hr />
+    <form method="get" action="B.aspx">
+        id:
+        <input type="text" name="id" /><br />
+        name:
+        <input type="text" name="name" /><br />
+        <input type="submit" value="ok" />
+    </form>
 </body>
 </html>
