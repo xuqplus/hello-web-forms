@@ -19,9 +19,9 @@
     <hr />
     <form method="get" action="B.aspx">
         id:
-        <input type="text" name="id" /><br />
+        <input type="text" name="id" value="7"/><br />
         name:
-        <input type="text" name="name" /><br />
+        <input type="text" name="name" value="xqq" /><br />
         <input type="submit" value="ok" />
     </form>
 </body>

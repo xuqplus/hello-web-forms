@@ -21,5 +21,16 @@
         HttpCookie cookie = new HttpCookie("hello-web-forms", "value");
         Response.SetCookie(cookie);
     %>
+    <hr />
+    <%=
+        Session.SessionID
+    %>
+    <%
+        Random random = new Random();
+        if (random.Next(100) > 80)
+        {
+            Response.Redirect("A");
+        }
+    %>
 </body>
 </html>
